@@ -11,6 +11,9 @@ func Usage() {
 	fmt.Println("")
 	fmt.Println("start working area (see also: ccgit help tutorial)")
 	fmt.Println("   init       Create an empty Git repository or reinitialize an existing one")
+	fmt.Println("")
+	fmt.Println("work on the current change (see also: git help everyday)")
+	fmt.Println("   add       Add file contents to the index")
 }
 
 func CommandNotFound(command string) {

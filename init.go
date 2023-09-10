@@ -103,7 +103,6 @@ func Init(dirName string) {
 		fmt.Println("Error: ", err)
 		return
 	}
-	fmt.Printf("Creating config files.")
 	createConfigFiles(location)
 	createConfigDirectories(location)
 }
